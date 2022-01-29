@@ -9,4 +9,4 @@ This program uses UserDefaults and controls 2 global properties `NSColorSimulate
 
 ### Screenshot of the program
 
-![https://github.com/elunico/iMacColorUnlocker/raw/main/sample.png](Screenshot of the program)
+![Screenshot of the program](https://github.com/elunico/iMacColorUnlocker/blob/main/sample.png?raw=true)
