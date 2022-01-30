@@ -14,6 +14,12 @@
 		DC1DC96027A4B408005C57AB /* iMacColorUnlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC95F27A4B408005C57AB /* iMacColorUnlockerTests.swift */; };
 		DC1DC96A27A4B408005C57AB /* iMacColorUnlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC96927A4B408005C57AB /* iMacColorUnlockerUITests.swift */; };
 		DC1DC96C27A4B408005C57AB /* iMacColorUnlockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DC96B27A4B408005C57AB /* iMacColorUnlockerUITestsLaunchTests.swift */; };
+		DC691D6127A658C100EBE2CD /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC691D6027A658C100EBE2CD /* Preferences.swift */; };
+		DC691D6227A658C100EBE2CD /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC691D6027A658C100EBE2CD /* Preferences.swift */; };
+		DC691D6327A658C100EBE2CD /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC691D6027A658C100EBE2CD /* Preferences.swift */; };
+		DC7DC11927A647DE00B12F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DC11827A647DE00B12F54 /* AppDelegate.m */; };
+		DC7DC11A27A647DE00B12F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DC11827A647DE00B12F54 /* AppDelegate.m */; };
+		DC7DC11B27A647DE00B12F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7DC11827A647DE00B12F54 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		DC1DC96527A4B408005C57AB /* iMacColorUnlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMacColorUnlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1DC96927A4B408005C57AB /* iMacColorUnlockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMacColorUnlockerUITests.swift; sourceTree = "<group>"; };
 		DC1DC96B27A4B408005C57AB /* iMacColorUnlockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMacColorUnlockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC691D6027A658C100EBE2CD /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		DC7DC11427A647DD00B12F54 /* iMacColorUnlocker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMacColorUnlocker-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC7DC11527A647DD00B12F54 /* iMacColorUnlockerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMacColorUnlockerTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC7DC11627A647DD00B12F54 /* iMacColorUnlockerUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMacColorUnlockerUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC7DC11727A647DE00B12F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC7DC11827A647DE00B12F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				DC1DC94D27A4B407005C57AB /* iMacColorUnlockerApp.swift */,
+				DC7DC11727A647DE00B12F54 /* AppDelegate.h */,
+				DC7DC11827A647DE00B12F54 /* AppDelegate.m */,
+				DC691D6027A658C100EBE2CD /* Preferences.swift */,
 				DC1DC94F27A4B407005C57AB /* ContentView.swift */,
 				DC1DC95127A4B408005C57AB /* Assets.xcassets */,
 				DC1DC95627A4B408005C57AB /* iMacColorUnlocker.entitlements */,
 				DC1DC95327A4B408005C57AB /* Preview Content */,
+				DC7DC11427A647DD00B12F54 /* iMacColorUnlocker-Bridging-Header.h */,
+				DC7DC11527A647DD00B12F54 /* iMacColorUnlockerTests-Bridging-Header.h */,
+				DC7DC11627A647DD00B12F54 /* iMacColorUnlockerUITests-Bridging-Header.h */,
 			);
 			path = iMacColorUnlocker;
 			sourceTree = "<group>";
@@ -197,13 +215,16 @@
 				TargetAttributes = {
 					DC1DC94927A4B407005C57AB = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					DC1DC95A27A4B408005C57AB = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = DC1DC94927A4B407005C57AB;
 					};
 					DC1DC96427A4B408005C57AB = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = DC1DC94927A4B407005C57AB;
 					};
 				};
@@ -261,6 +282,8 @@
 			files = (
 				DC1DC95027A4B407005C57AB /* ContentView.swift in Sources */,
 				DC1DC94E27A4B407005C57AB /* iMacColorUnlockerApp.swift in Sources */,
+				DC691D6127A658C100EBE2CD /* Preferences.swift in Sources */,
+				DC7DC11927A647DE00B12F54 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7DC11A27A647DE00B12F54 /* AppDelegate.m in Sources */,
 				DC1DC96027A4B408005C57AB /* iMacColorUnlockerTests.swift in Sources */,
+				DC691D6227A658C100EBE2CD /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +303,8 @@
 			files = (
 				DC1DC96A27A4B408005C57AB /* iMacColorUnlockerUITests.swift in Sources */,
 				DC1DC96C27A4B408005C57AB /* iMacColorUnlockerUITestsLaunchTests.swift in Sources */,
+				DC691D6327A658C100EBE2CD /* Preferences.swift in Sources */,
+				DC7DC11B27A647DE00B12F54 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +444,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iMacColorUnlocker/iMacColorUnlocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2204c0039;
 				DEVELOPMENT_ASSET_PATHS = "\"iMacColorUnlocker/Preview Content\"";
 				DEVELOPMENT_TEAM = 9KTV75G5K9;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -431,10 +459,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.iMacColorUnlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iMacColorUnlocker/iMacColorUnlocker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -444,10 +474,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iMacColorUnlocker/iMacColorUnlocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2204c0039;
 				DEVELOPMENT_ASSET_PATHS = "\"iMacColorUnlocker/Preview Content\"";
 				DEVELOPMENT_TEAM = 9KTV75G5K9;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -458,10 +489,11 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.iMacColorUnlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iMacColorUnlocker/iMacColorUnlocker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -471,15 +503,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9KTV75G5K9;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.iMacColorUnlockerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "iMacColorUnlocker/iMacColorUnlockerTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMacColorUnlocker.app/Contents/MacOS/iMacColorUnlocker";
 			};
@@ -490,15 +530,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9KTV75G5K9;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.iMacColorUnlockerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "iMacColorUnlocker/iMacColorUnlockerTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMacColorUnlocker.app/Contents/MacOS/iMacColorUnlocker";
 			};
@@ -508,14 +555,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9KTV75G5K9;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.iMacColorUnlockerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "iMacColorUnlocker/iMacColorUnlockerUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = iMacColorUnlocker;
 			};
@@ -525,14 +580,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9KTV75G5K9;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tom.iMacColorUnlockerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "iMacColorUnlocker/iMacColorUnlockerUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = iMacColorUnlocker;
 			};
